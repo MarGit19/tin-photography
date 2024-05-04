@@ -1,12 +1,14 @@
 import React from 'react';
-import { ImFacebook, ImTwitter, ImInstagram } from 'react-icons/im';
+import { ImInstagram } from 'react-icons/im';
 
 const Socials = () => {
   return (
     <div className='hidden xl:flex ml-24'>
       <ul>
         <li>
-          <a href='http://www.instagram.com' target='_blank'><ImInstagram /></a>
+          <a href='https://www.instagram.com/tin.photography.nl/' target='_blank' rel='noopener noreferrer'>
+            <ImInstagram />
+          </a>
         </li>
       </ul>
     </div>

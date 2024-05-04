@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <section className='section'>
       <div className='container mx-auto h-full pt-24 relative'>
-        <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left pt-6 lg:pt-2 pb-8'>
+        <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left'>
           <div>
               <h1 className='h1'>Portfolio</h1>
               <p className='mb-4 max-w-sm'>Explore a curated selection of my work, capturing the natural world's beauty and serenity. From majestic mountains to tranquil lakes, rolling hills, and surprising inner-city oases, each photograph narrates a unique story of diverse landscapes. Witness the majestic dawn over towering peaks, immerse in serene lakes reflecting lush surroundings, and discover urban tranquility amidst bustling streets and towering skyscrapers. These images invite contemplation and offer respite from the hustle and bustle of city life.</p>

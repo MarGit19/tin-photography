@@ -2,7 +2,7 @@ module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
     fontFamily: {
-      primary: 'Playfair Display',
+      primary: 'Sedgwick Ave Display',
       secondary: 'Mulish',
     },
     extend: {

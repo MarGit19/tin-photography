@@ -1,20 +1,16 @@
-import React, { useContext } from 'react';
+import React from 'react';
 
 //import components
 import Socials from './Socials';
 import Logo from '../assets/header/Logo.svg';
 import MobileNav from './MobileNav';
 
-
 //import link
 import { Link } from 'react-router-dom';
-//import cursor context
-//import { CursorContext } from '../context/CursorContext';
 
 const Header = () => {
-	//const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext)
-	return (
-		<header className='fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
+  return (
+    <header className='fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
       <div className='flex flex-col lg:flex-row lg:items-center w-full justify-between'>
         <Link to={'/'} className='max-x-[200px]'>
           <img src={Logo} alt='' />
@@ -28,7 +24,7 @@ const Header = () => {
       </div>
       <Socials/>
       <MobileNav/>
-		</header>
+    </header>
   );
 };
 

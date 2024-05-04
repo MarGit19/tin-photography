@@ -12,7 +12,7 @@ const Contact = () => {
           </div>
           <div className='pt-56 lg:pt-12 px-4 pb-14 lg:w-auto z-10 flex flex-col justify-center lg:items-start'>
             <h1 className='h1'>Contact Me</h1>
-            <p className='mb-3'>Please leave me some suggestions</p>
+            <p className='text-[18px] mb-3'>Please leave me some suggestions</p>
             <form className='flex flex-col gap-y-4'>
               <div className='flex gap-x-10'>
                 <input className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]' type='text' placeholder='full name'/>

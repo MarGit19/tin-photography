@@ -12,7 +12,7 @@ const About = () => {
           </div>
           <div className='pt-56 lg:pt-12 pb-14 px-4 lg:w-auto z-10 flex flex-col justify-center lg:items-start'>
             <h2 className='h1'>About Me</h2>
-            <p className='text-[15px] mb-4 max-w-lg'>
+            <p className='text-[18px] mb-4 max-w-lg'>
             Hello! I'm Martin, a nature photographer driven by a profound passion for capturing the beauty of the natural world. With my lens, I freeze moments to convey both visual splendor and the emotions within landscapes, traversing diverse terrains to share our planet's beauty and foster connections. Beyond photography, I advocate for environmental conservation, raising awareness about our planet's fragility and the urgent need for preservation. Join me on this journey where each image tells a story, and landscapes reveal the earth's secrets, celebrating nature's magnificence together.
             </p>
             <Link to='/portfolio' className='btn'>See my Works</Link> 

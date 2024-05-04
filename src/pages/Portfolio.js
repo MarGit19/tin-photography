@@ -14,7 +14,7 @@ const Portfolio = () => {
         <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left'>
           <div>
               <h1 className='h1'>Portfolio</h1>
-              <p className='mb-4 max-w-sm'>Explore a curated selection of my work, capturing the natural world's beauty and serenity. From majestic mountains to tranquil lakes, rolling hills, and surprising inner-city oases, each photograph narrates a unique story of diverse landscapes. Witness the majestic dawn over towering peaks, immerse in serene lakes reflecting lush surroundings, and discover urban tranquility amidst bustling streets and towering skyscrapers. These images invite contemplation and offer respite from the hustle and bustle of city life.</p>
+              <p className='text-[18px] mb-4 max-w-sm'>Explore a curated selection of my work, capturing the natural world's beauty and serenity. From majestic mountains to tranquil lakes, rolling hills, and surprising inner-city oases, each photograph narrates a unique story of diverse landscapes. Witness the majestic dawn over towering peaks, immerse in serene lakes reflecting lush surroundings, and discover urban tranquility amidst bustling streets and towering skyscrapers. These images invite contemplation and offer respite from the hustle and bustle of city life.</p>
             <Link to={'/contact'} className='btn mb-[1px] mx-auto lg:mx-0'>Let's Connect</Link>
           </div>
           <div className='grid grid-cols-2 lg:gap-2 mb-[25px] lg:mb-[150px]'>
